@@ -3,7 +3,7 @@ import './App.css';
 import { Brand, CTA, Navbar } from './components';
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
 
-const app = () => {
+const App = () => {
   return (
     <div className='App'>
       <div className='gradient__bg'>
@@ -21,4 +21,4 @@ const app = () => {
   )
 }
 
-export default app
+export default App
